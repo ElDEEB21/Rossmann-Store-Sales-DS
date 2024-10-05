@@ -6,7 +6,7 @@ import joblib
 import numpy as np
 import UIstrimlitemodel
 from model_pipeline import Predict
-df = pd.read_csv(r"D:\model\data.csv")
+df = pd.read_csv(r"Merged_data.csv")
 df['Date'] = pd.to_datetime(df['Date'])
 df.set_index('Date', drop=False, inplace=True)
 

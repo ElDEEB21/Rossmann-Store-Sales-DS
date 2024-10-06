@@ -91,7 +91,7 @@ We evaluated the performance of each model using **3-fold cross-validation** and
 - Root Mean Squared Error (RMSE)
 - R² score
 
-The **XGBRegressor** model achieved an accuracy of **97.8%** and was selected as the best-performing model.
+The **XGBRegressor** model achieved an accuracy of **97.9%** and was selected as the best-performing model.
 
 ## Model Deployment
 
